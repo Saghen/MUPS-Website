@@ -81,8 +81,45 @@ header {
 }
 
 #header-nav > a {
-  padding: 0 10px;
+  margin: 0 10px;
   color: #fff;
+}
+
+hr {
+  height: 2px;
+  width: 15%;
+  margin: 0;
+  margin-top: 3px;
+  margin-left: 2%;
+  width: 47px;
+  background: #fff;
+  border: none;
+  transition: .3s ease-in-out;
+}
+
+#header-nav > a:nth-child(1):hover ~ hr {
+  margin-left: 2%;
+  width: 47px;
+}
+
+#header-nav > a:nth-child(2):hover ~ hr {
+  margin-left: 19%;
+  width: 75px;
+}
+
+#header-nav > a:nth-child(3):hover ~ hr {
+  margin-left: 43%;
+  width: 45px;
+}
+
+#header-nav > a:nth-child(4):hover ~ hr {
+  margin-left: 59%;
+  width: 100px;
+}
+
+#header-nav > a:nth-child(5):hover ~ hr {
+  margin-left: 90%;
+  width: 30px;
 }
 
 #header-container {
