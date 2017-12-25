@@ -53,8 +53,7 @@ canvas{
   left: 0;
   right: 0;
   margin: auto;
-  width: 600px;
-  height: 600px;
+  width: 40%
   pointer-events: none; /* So that the hover effect works on the background */
   filter: invert(100%);
 }
