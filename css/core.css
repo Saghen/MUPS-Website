@@ -286,3 +286,13 @@ hr {
     width: 30%;
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .icons-container {
+    flex-direction: column;
+  }
+
+  .icon-item {
+    width: 90%;
+  }
+}
