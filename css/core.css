@@ -1,27 +1,3 @@
-/* =============================================================================
-   HTML5 CSS Reset Minified - Eric Meyer
-   ========================================================================== */
-
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
-body{line-height:1}
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
-nav ul{list-style:none}
-blockquote,q{quotes:none}
-blockquote:before,blockquote:after,q:before,q:after{content:none}
-a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
-mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
-del{text-decoration:line-through}
-abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
-table{border-collapse:collapse;border-spacing:0}
-hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
-input,select{vertical-align:middle}
-li{list-style:none}
-
-
-/* =============================================================================
-   My CSS
-   ========================================================================== */
-
 /* ---- base ---- */
 
 html,body{ 
@@ -37,11 +13,16 @@ canvas{
   vertical-align:bottom;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* ---- particles.js container ---- */
 
 #particles-js {
   background-image: radial-gradient(farthest-corner at 500px 200px,
       #505558 0%, #222 50%, #111 80%);
+  height: 100%;
 }
 
 /* ---- splashbox ---- */
@@ -77,48 +58,17 @@ header {
   float: right;
   height: 20px;
   padding: 40px 0;
+  margin: 0;
 }
 
-#header-nav > a {
+#header-nav > li {
+  list-style: none;
+  display: inline;
+}
+
+#header-nav > li > a {
   margin: 0 10px;
   color: #fff;
-}
-
-hr {
-  height: 2px;
-  width: 15%;
-  margin: 0;
-  margin-top: 3px;
-  margin-left: 2%;
-  width: 47px;
-  background: #fff;
-  border: none;
-  transition: .3s ease-in-out;
-}
-
-#header-nav > a:nth-child(1):hover ~ hr {
-  margin-left: 2%;
-  width: 47px;
-}
-
-#header-nav > a:nth-child(2):hover ~ hr {
-  margin-left: 19%;
-  width: 75px;
-}
-
-#header-nav > a:nth-child(3):hover ~ hr {
-  margin-left: 43%;
-  width: 45px;
-}
-
-#header-nav > a:nth-child(4):hover ~ hr {
-  margin-left: 59%;
-  width: 100px;
-}
-
-#header-nav > a:nth-child(5):hover ~ hr {
-  margin-left: 90%;
-  width: 30px;
 }
 
 #header-container {
