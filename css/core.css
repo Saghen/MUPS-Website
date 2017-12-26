@@ -97,8 +97,7 @@ header {
 /* ---- info box ---- */
 
 .info-box {
-  display: table;
-  table-layout: fixed;
+  display: flex;
   width: 100%;
   line-height: 150%;
 }
@@ -113,18 +112,15 @@ header {
 
 .info-box-text{
   width: 50%;
-  display: table-cell;
-  vertical-align: middle;
+  display: flex;
   background: #222;
-  position: relative;
   height: 25em;
+  align-items: center;
+  justify-content: center;
 }
 
 .info-box-text > div {
-  margin: auto;
   max-width: 500px;
-  padding: 0 50px;
-  vertical-align: middle;
 }
 
 .info-box-text > div > * {
