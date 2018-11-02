@@ -22,7 +22,8 @@ a {
 #particles-js {
   background-image: radial-gradient(farthest-corner at 500px 200px,
       #505558 0%, #222 50%, #111 80%);
-  height: 100%;
+  height: 50vh;
+  position: relative;
 }
 
 /* ---- splashbox ---- */
@@ -34,7 +35,7 @@ a {
   left: 0;
   right: 0;
   margin: auto;
-  width: 40%;
+  height: 70%;
   pointer-events: none; /* So that the hover effect works on the background */
   filter: invert(100%);
 }
@@ -44,7 +45,8 @@ header {
   width: 100%;
   height: 100px;
   background: rgba(30,30,30,0.5);
-  position: absolute;
+  position: fixed;
+  z-index: 50;
 }
 
 #logo {
