@@ -6,6 +6,7 @@ html,body{
 	background:#222;
   font-family: Segoe UI, Aerial, Helvetica, sans-serif;
   color: #fff;
+  scroll-behavior: smooth;
 }
 
 canvas{
