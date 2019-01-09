@@ -1,90 +1,103 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>Testing Website</title>
-	<link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/core.css">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-	<script src="js/particles.min.js"></script>
-	<script src="js/core.js"></script>
-	<meta charset="utf-8">
-	<meta name="description" content="A website by Liam Dyer for testing out CSS and JS features.">
-	<meta name="keywords" content="Testing, Web Development, CSS, JS, HTML, Filters">
-	<meta name="author" content="Liam Dyer">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MUPS</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="core.css">
 </head>
+
 <body>
-	<header>
-		<div id="header-container">
-			<img src="imgs/logo.png" id="logo">
-			<ul id="header-nav">
-				<li><a class="smooth-scroll" href="#">Home</a></li>
-				<li><a class="smooth-scroll" href="#about-us">About Us</a></li>
-				<li><a class="smooth-scroll" href="#news">News</a></li>
-				<li><a class="smooth-scroll" href="#suggestions">Suggestions?</a></li>
-				<li><a class="smooth-scroll" href="#phi">PHI</a></li>
-			</ul>
-		</div>
-	</header>
-	<div id="particles-js">
-		<img id="splashbox" src="imgs/logo_large.png"></img>
-	</div>
-	<div id="abilities">
-		<div class="info-box" id="about-us">
-			<div class="info-box-text">
-				<div>
-					<h2>About Us</h2>
-					<div class="line-seperator"></div>
-					<p> The McMaster Undergraduate Physics Society (MUPS) serves the academic and social needs of about 100 undergraduate physics students at McMaster University. We're your link to the department, we represent you within the McMaster Science Society, and we host various events throughout the year that serve to enhance your undergraduate experience, including pub nights, intramurals, and academic sessions. </p>
-					</div>
-				</div>
-			<div class="info-box-image" style="background-image: url('imgs/physics.jpg'); background-size: 101%;"></div>	
-		</div>
-		<div class="info-box" id="news" style="flex-wrap: wrap;">
-			<div class="info-box-image" style="background-image:url('imgs/news.jpg');"></div>	
-			<div class="info-box-text info-box-lighter">
-				<div>
-					<h2>News</h2>
-					<div class="line-seperator"></div>
-					<p>Something about all the news that you show and put a link in here in the place with the button.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vehicula porta blandit. Suspendisse placerat ligula eget ligula cursus laoreet. Aliquam ligula lorem, lobortis id scelerisque sit amet, imperdiet eget est. Suspendisse ut mattis libero, eget laoreet justo. Duis velit justo, egestas ut mauris at, tincidunt mollis nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus gravida libero sed neque ultricies, non scelerisque eros accumsan.</p>
-					<a class="button" href="https://www.facebook.com/MUPSoc/?fref=ts">More News</a>
-				</div>
-			</div>
-		</div>
-		<div class="info-box"  id="suggestions">
-			<div class="info-box-text">
-				<div>
-					<h2>Suggestions?</h2>
-					<div class="line-seperator"></div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vehicula porta blandit. Suspendisse placerat ligula eget ligula cursus laoreet. Aliquam ligula lorem, lobortis id scelerisque sit amet, imperdiet eget est. Suspendisse ut mattis libero, eget laoreet justo. Duis velit justo, egestas ut mauris at, tincidunt mollis nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus gravida libero sed neque ultricies, non scelerisque eros accumsan.</p>
-					<a class="button" href="#">Contact Us</a>
-					</div>
-				</div>
-			<div class="info-box-image" style="background-image: url('imgs/physics.jpg'); background-size: 101%;"></div>	
-		</div>
-	</div>
-	<div class="icon-w-info" id="phi">
-		<h2>Physics Help Initiative</h2>
-		<div class="line-seperator" style="width:300px;"></div>
-		<div class="icons-container">
-			<div class="icon-item">
-				<i class="material-icons">&#xE869;</i>
-				<p class="icon-title">Build Your Knowledge</p>
-				<p class="icon-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vehicula porta blandit. Suspendisse placerat ligula eget ligula cursus laoreet. Aliquam ligula lorem, lobortis id scelerisque sit amet, imperdiet eget est. Suspendisse ut mattis libero, eget laoreet justo.</p>
-			</div>
-			<div class="icon-item">
-				<i class="material-icons">&#xE876;</i>
-				<p class="icon-title">Fast and Helpful</p>
-				<p class="icon-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vehicula porta blandit. Suspendisse placerat ligula eget ligula cursus laoreet. Aliquam ligula lorem, lobortis id scelerisque sit amet, imperdiet eget est. Suspendisse ut mattis libero, eget laoreet justo.</p>
-			</div>
-			<div class="icon-item">
-				<i class="material-icons">&#xE7FD;</i>
-				<p class="icon-title">Person to Person</p>
-				<p class="icon-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vehicula porta blandit. Suspendisse placerat ligula eget ligula cursus laoreet. Aliquam ligula lorem, lobortis id scelerisque sit amet, imperdiet eget est. Suspendisse ut mattis libero, eget laoreet justo.</p>
-			</div>
-		</div>
-		<a class="button" href="#">Learn More</a>
-	</div>
+  <div id="hero-container">
+    <div id="hero">
+      <img id="logo" src="./logo.png" />
+      <div id="content">
+        <div id="inner">
+          <div class="title">McMaster Undergraduate Physics Society</div>
+          <div class="subtitle">We provide free food and socialization to deprived physics students</div>
+          <div id="location">
+            <svg aria-hidden="true" data-prefix="fas" data-icon="map-marker-alt" class="svg-inline--fa fa-map-marker-alt fa-w-12"
+              role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+              <path fill="currentColor" d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path>
+            </svg>
+            <span>Hamilton, Ontario</span>
+          </div>
+        </div>
+      </div>
+      <div id="buttons">
+        <a class="button" href="#about">About</a>
+        <a class="button" href="#phi">PHI</a>
+        <a class="button" href="#executive">Executive</a>
+        <a class="button" href="https://www.facebook.com/MUPSoc/">Contact</a>
+      </div>
+    </div>
+  </div>
+  <div id="bg"></div>
+  <div class="container" id="about">
+    <span class="heading">About MUPS</span>
+    <div class="content" style="max-width: 1000px; flex-direction: column;">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum.
+      </p>
+      <div id="social-media">
+        <a href="https://www.facebook.com/MUPSoc/"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/MUPStweets"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="container" id="phi">
+    <span class="heading">Physics Help Initiative </span>
+    <div class="content icons-container">
+      <div class="icon-item">
+        <i class="fas fa-tools"></i>
+        <p class="icon-title">Build Your Knowledge</p>
+        <p class="icon-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vehicula porta blandit.
+          Suspendisse placerat ligula eget ligula cursus laoreet. Aliquam ligula lorem, lobortis id scelerisque sit
+          amet, imperdiet eget est. Suspendisse ut mattis libero, eget laoreet justo.</p>
+      </div>
+      <div class="icon-item">
+        <i class="fas fa-hands-helping"></i>
+        <p class="icon-title">Fast and Helpful</p>
+        <p class="icon-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vehicula porta blandit.
+          Suspendisse placerat ligula eget ligula cursus laoreet. Aliquam ligula lorem, lobortis id scelerisque sit
+          amet, imperdiet eget est. Suspendisse ut mattis libero, eget laoreet justo.</p>
+      </div>
+      <div class="icon-item">
+        <i class="fas fa-users"></i>
+        <p class="icon-title">Person to Person</p>
+        <p class="icon-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vehicula porta blandit.
+          Suspendisse placerat ligula eget ligula cursus laoreet. Aliquam ligula lorem, lobortis id scelerisque sit
+          amet, imperdiet eget est. Suspendisse ut mattis libero, eget laoreet justo.</p>
+      </div>
+    </div>
+    <a class="button" href="#">Learn More</a>
+  </div>
+  <div class="container" id="executive">
+    <span class="heading">Executive</span>
+    <div class="content">
+      <img src="./imgs/benisdumb.jpg" alt="" style="margin-left: 20px; height: 400px;">
+    </div>
+  </div>
+  <script>
+    setTimeout(() => {
+      const elem = document.querySelector('#inner');
+      elem.style.height = elem.scrollHeight + 'px';
+      elem.style.padding = '40px';
+
+      setTimeout(() => {
+        elem.style.height = 'auto';
+      }, 1000);
+    })
+  </script>
 </body>
+
 </html>
