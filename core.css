@@ -65,7 +65,8 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  font-family: 'DIN', sans-serif;
+  font-family: 'DIN', 'Helvetia', sans-serif;
+  font-display: swap;
   color: #fff;
   text-align: center;
   max-width: 1000px;
@@ -219,11 +220,12 @@ body {
 }
 
 .heading {
-  font-family: 'DIN', sans-serif;
+  font-family: 'DIN', 'Helvetica', sans-serif;
   color: #4781ed;
   animation: typing-effect 1.0s linear infinite;
   font-size: 1.5rem;
   margin-bottom: 10px;
+  font-display: swap;
 }
 
 .content {
