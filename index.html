@@ -88,7 +88,7 @@
     </div>
   </div>
   <script>
-    setTimeout(() => {
+    document.addEventListener('DOMContentLoaded', () => {
       const elem = document.querySelector('#inner');
       elem.style.height = elem.scrollHeight + 'px';
       elem.style.padding = '40px';
@@ -96,7 +96,7 @@
       setTimeout(() => {
         elem.style.height = 'auto';
       }, 1000);
-    })
+    });
   </script>
 </body>
 
