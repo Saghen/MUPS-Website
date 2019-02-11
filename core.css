@@ -59,7 +59,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  margin: 20px;
   font-family: 'DIN', 'Helvetica', sans-serif;
   color: #fff;
   text-align: center;
@@ -132,7 +132,7 @@ body {
   letter-spacing: 0.2em;
   font-size: 0.8rem;
   display: block;
-  width: 140px;
+  width: 120px;
   padding: 12px 0;
   color: #fff;
   text-decoration: none;
@@ -287,4 +287,59 @@ body {
 
 .fa-twitter {
   background: #38A1F3;
+}
+
+#executive > .content {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.executive > img {
+  max-height: 100%;
+  max-width: 300px;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.executive {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  text-decoration: none;
+}
+
+.executive > .name {
+  margin-top: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .executive {
+    width: calc(50% - 40px);
+  }
+
+  .row {
+    flex-wrap: wrap;
+  }
+
+  .icons-container {
+    flex-wrap: wrap;
+  }
+}
+
+/* easter egg */
+
+#soup-time {
+  opacity: 0;
+}
+
+#soup-time:hover {
+  opacity: 1;
 }
