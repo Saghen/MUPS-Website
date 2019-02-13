@@ -364,13 +364,3 @@ body {
     border-left: none !important;
   }
 }
-
-/* easter egg */
-
-#soup-time {
-  opacity: 0;
-}
-
-#soup-time:hover {
-  opacity: 1;
-}
